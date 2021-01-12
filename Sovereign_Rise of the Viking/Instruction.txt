@@ -1,0 +1,56 @@
+				Sovereign: Rise of the Viking
+
+
+	Welcome to Sovereign, a text adventure game developed by Aalto students. Inspired by Medieval Warfare, Age of Empire, Pokémon and Minecraft, this game concept is about a King traveling around with his army, 
+	in a mission to take over the whole world. This Instruction file is meant to help you get through every command there is and ease your experience.
+	**Note: This game’s statistics are run based on scala Random library, therefore, the next time you open the game, it will not be the same as the last time. So, enjoy :D
+
+I.	The game map: the map represents dynasties that some may be your ally but some may not. By defeating your enemies, you can turn them into your Ally. The game ends when you finally took over the whole world.
+
+II.	The Player: Your player has 6 statistics to look after: Health(HP), Attack(Atk), Defense(Def), Speed(Spd), Critical chance(Crit), Money and MaxHP
+
+	a.	Health(HP): the HP system describe your health as well as your enemy’s, when you invade a country, make sure to look at your health as well as theirs to make sure the King (our Hero) stay alive
+	b.	Attack – Defense: the game’s combat mechanism is simple, the damage you as well as your enemy take is: Atk(attacker) – Def(defender)
+	c.	Speed: Speed in this game will be the decider that who will strike first in a combat. Gaining the chance to strike first can decide the outcome of a battle
+	d.	Critical chance: Crit in this game is an important factor in this game also, a crit means that your Atk that turn will be doubled. Unlike other stats, your Crit cannot be changed by equipping items
+	e.	Money: This game introduced a buy-sell system, items can help upgrading your stat, therefore, spend your money wisely. Also, when you successfully defeated an enemy, you can gain money as a spoil of war.
+	f.	MaxHP: The limit of your HP, how high can your hp get
+III.	Relationship with other dynasties: There are only two type of relationship in this game: Ally and Enemy
+	a.	Ally: there are many things you can do if a dynasty is your ally
+		i.	Buy-Sell: You do not expect your enemy will sell you their weapons and armors, right?
+		ii.	Trade: Certain dynasty offers really nice trade, you can choose to accept their offer or not
+		iii.	Benefits: Certain dynasty offers Stats buff or item when you pay them a visit
+		iv.	Base system: Somehow, allies let you build army base on their land. You can build and upgrade these based using your money to get your stats buffed
+	b.	Enemy: there are not much to do about them except for invading them
+IV.	Combat: This game combat system is inspired by Pokémon, turn-based. During combat, you can only: attack, use item (enemy can attack you after you attack them or after you use an item), retreat (get out of combat), 
+		take a look at your statistics and money with certain commands: money, statistic, inventory
+V.	In-game command:
+	a.	Naming your king: name (A name you like)
+	b.	Travelling: go (direction)
+	c.	Rest (this is a thing you can do to heal yourself): rest
+	d.	Quit: quit
+	e.	Examine: examine itemname
+	f.	Inventory (go through your inventory): inventory
+	g.	Equip (use this to equip these certain item types: chestplate, helmet, boots, sword, spear, emblem; equipped item will not be in your inventory):              equip itemname
+	h.	Use (use this to use potions): use itemname
+	i.	Buy (buy items that are available in shops): buy itemname quantity
+	j.	Sell (sell items that are in your inventory): sell itemname quantity
+	k.	Money (check your money, although there is already a counter in the gui): money
+	l.	Check Statistic (check your current stat, although there is also a counter in the gui): statistic
+	m.	Trade: trade
+	n.	Build (Build your base): build
+	o.	Upgrade (Upgrade your existed base): upgrade
+	p.	Fight (when in enemy territory, input this command to start the battle with you enemy): fight
+	q.	Attack (when in a battle, this command is to attack the enemy): attack
+	r.	Retreat (when in a battle, this command helps you to run away from battle with a cost for some money): retreat
+	s.	Command List (go through every command needed to play this game) : command
+	**itemname: consist of 2 parts: itemTier (e.g: wooden, iron) itemName (e.g:sword, helmet)
+	**quantity: is a number, enter a string full of text or partial text, quantity will be counted as zero, enter nothing, quantity will also be counted as zero
+VI.	Item: certain items can improve some specific statistic; higher tier = stronger buff:
+	a.	Helmet – Chestplate: Improve your defense
+	b.	Boots: Improve your speed
+	c.	Sword – Spear: Improve your attack
+	d.	Emblem: Improve your maxHP
+	e.	Potion: Heal you
+
+That’s it for the instruction. Make sure to enjoy the game and good luck on your conquest.
